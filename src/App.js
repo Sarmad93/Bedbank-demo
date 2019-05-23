@@ -68,7 +68,7 @@ const Header = () => (
 const Body = props => (
   <View
     style={{
-      backgroundColor: "green",
+      backgroundColor: "#006ead",
       height: 500,
       justifyContent: "center",
       alignItems: "center",
@@ -82,7 +82,7 @@ const Body = props => (
 const Footer = () => (
   <View
     style={{
-      backgroundColor: "green",
+      backgroundColor: "#006ead",
       height: 200,
       justifyContent: "center",
       alignItems: "center",
