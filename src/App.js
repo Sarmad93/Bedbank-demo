@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { Formik } from "formik";
+
 //import logo from "./logo.svg";
-import { StyleSheet, Text, View, FlatList } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  FlatList,
+  TouchableOpacity
+} from "react-native";
 import Calendar from "react-calendar";
 
 import "./App.css";
@@ -101,6 +109,7 @@ const Footer = () => (
 );
 
 function App() {
+  const [count, setCount] = useState(0);
   return (
     <View style={styles.box}>
       {/* <View style={{ flex: 1, backgroundColor: "green" }} /> */}
@@ -108,6 +117,12 @@ function App() {
       <Body>
         <Text>This is calender</Text>
         <Text>Some change to invalidate snapshot</Text>
+        <View>
+          <Text>Counter {count}</Text>
+          <TouchableOpacity onPress={() => setCount(count + 1)}>
+            <Text>Click me</Text>
+          </TouchableOpacity>
+        </View>
         <Calendar />
       </Body>
       <Footer />
