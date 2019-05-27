@@ -107,6 +107,7 @@ function App() {
       <Header />
       <Body>
         <Text>This is calender</Text>
+        <Text>Some change to invalidate snapshot</Text>
         <Calendar />
       </Body>
       <Footer />

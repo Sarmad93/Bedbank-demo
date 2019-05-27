@@ -1,0 +1,1158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="css-view-1dbjc4n r-flex-13awgt0 r-flexDirection-eqz5dr r-padding-1sp51qo"
+>
+  <div
+    className="css-view-1dbjc4n"
+    style={
+      Object {
+        "WebkitBoxDirection": "normal",
+        "WebkitBoxOrient": "horizontal",
+        "WebkitBoxPack": "justify",
+        "WebkitFlexDirection": "row",
+        "WebkitJustifyContent": "space-between",
+        "backgroundColor": "rgba(0,110,173,1.00)",
+        "flexDirection": "row",
+        "height": "100px",
+        "justifyContent": "space-between",
+        "msFlexDirection": "row",
+        "msFlexPack": "justify",
+      }
+    }
+  >
+    <div
+      className="css-view-1dbjc4n"
+      style={
+        Object {
+          "WebkitAlignItems": "center",
+          "WebkitBoxAlign": "center",
+          "WebkitBoxDirection": "normal",
+          "WebkitBoxOrient": "horizontal",
+          "WebkitFlexDirection": "row",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "msFlexAlign": "center",
+          "msFlexDirection": "row",
+        }
+      }
+    >
+      <div
+        className="css-text-76zvg2"
+        dir="auto"
+      >
+        SastaTicket.pk
+      </div>
+      <div
+        className="css-text-76zvg2"
+        dir="auto"
+        style={
+          Object {
+            "fontSize": "20px",
+            "fontWeight": "bold",
+            "marginLeft": "10px",
+          }
+        }
+      >
+        Flights
+      </div>
+      <div
+        className="css-text-76zvg2"
+        dir="auto"
+        style={
+          Object {
+            "fontSize": "20px",
+            "fontWeight": "bold",
+            "marginLeft": "10px",
+          }
+        }
+      >
+        Hotels
+      </div>
+      <div
+        className="css-text-76zvg2"
+        dir="auto"
+        style={
+          Object {
+            "fontSize": "20px",
+            "fontWeight": "bold",
+            "marginLeft": "10px",
+          }
+        }
+      >
+        Deals
+      </div>
+    </div>
+    <div
+      className="css-view-1dbjc4n"
+      style={
+        Object {
+          "WebkitAlignItems": "center",
+          "WebkitBoxAlign": "center",
+          "WebkitBoxDirection": "normal",
+          "WebkitBoxOrient": "horizontal",
+          "WebkitFlexDirection": "row",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "msFlexAlign": "center",
+          "msFlexDirection": "row",
+        }
+      }
+    >
+      <div
+        className="css-text-76zvg2"
+        dir="auto"
+        style={
+          Object {
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Login
+      </div>
+      <div
+        className="css-text-76zvg2"
+        dir="auto"
+        style={
+          Object {
+            "marginLeft": "5px",
+            "marginRight": "5px",
+          }
+        }
+      >
+        Contact us
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-view-1dbjc4n"
+    style={
+      Object {
+        "WebkitAlignItems": "center",
+        "WebkitBoxAlign": "center",
+        "WebkitBoxPack": "center",
+        "WebkitJustifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,110,173,1.00)",
+        "height": "500px",
+        "justifyContent": "center",
+        "marginTop": "10px",
+        "msFlexAlign": "center",
+        "msFlexPack": "center",
+      }
+    }
+  >
+    <div
+      className="css-text-76zvg2"
+      dir="auto"
+    >
+      This is calender
+    </div>
+    <div
+      className="css-text-76zvg2"
+      dir="auto"
+    >
+      Some change to invalidate snapshot
+    </div>
+    <div
+      className="react-calendar"
+      onBlur={null}
+      onMouseOut={null}
+    >
+      <div
+        className="react-calendar__navigation"
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <button
+          aria-label=""
+          className="react-calendar__navigation__arrow react-calendar__navigation__prev2-button"
+          onClick={[Function]}
+          type="button"
+        >
+          «
+        </button>
+        <button
+          aria-label=""
+          className="react-calendar__navigation__arrow react-calendar__navigation__prev-button"
+          onClick={[Function]}
+          type="button"
+        >
+          ‹
+        </button>
+        <button
+          aria-label=""
+          className="react-calendar__navigation__label"
+          disabled={false}
+          onClick={[Function]}
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+          type="button"
+        >
+          May 2019
+        </button>
+        <button
+          aria-label=""
+          className="react-calendar__navigation__arrow react-calendar__navigation__next-button"
+          onClick={[Function]}
+          type="button"
+        >
+          ›
+        </button>
+        <button
+          aria-label=""
+          className="react-calendar__navigation__arrow react-calendar__navigation__next2-button"
+          onClick={[Function]}
+          type="button"
+        >
+          »
+        </button>
+      </div>
+      <div
+        className="react-calendar__month-view "
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "display": "flex",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "flexGrow": 1,
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="react-calendar__month-view__weekdays"
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": undefined,
+                  "flexWrap": "no-wrap",
+                }
+              }
+            >
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Monday"
+                  title="Monday"
+                >
+                  Mon
+                </abbr>
+              </div>
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Tuesday"
+                  title="Tuesday"
+                >
+                  Tue
+                </abbr>
+              </div>
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Wednesday"
+                  title="Wednesday"
+                >
+                  Wed
+                </abbr>
+              </div>
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Thursday"
+                  title="Thursday"
+                >
+                  Thu
+                </abbr>
+              </div>
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Friday"
+                  title="Friday"
+                >
+                  Fri
+                </abbr>
+              </div>
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Saturday"
+                  title="Saturday"
+                >
+                  Sat
+                </abbr>
+              </div>
+              <div
+                className="react-calendar__month-view__weekdays__weekday"
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <abbr
+                  aria-label="Sunday"
+                  title="Sunday"
+                >
+                  Sun
+                </abbr>
+              </div>
+            </div>
+            <div
+              className="react-calendar__month-view__days"
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": undefined,
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="April 29, 2019"
+                >
+                  29
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--neighboringMonth"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="April 30, 2019"
+                >
+                  30
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 1, 2019"
+                >
+                  1
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 2, 2019"
+                >
+                  2
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 3, 2019"
+                >
+                  3
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 4, 2019"
+                >
+                  4
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 5, 2019"
+                >
+                  5
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 6, 2019"
+                >
+                  6
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 7, 2019"
+                >
+                  7
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 8, 2019"
+                >
+                  8
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 9, 2019"
+                >
+                  9
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 10, 2019"
+                >
+                  10
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 11, 2019"
+                >
+                  11
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 12, 2019"
+                >
+                  12
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 13, 2019"
+                >
+                  13
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 14, 2019"
+                >
+                  14
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 15, 2019"
+                >
+                  15
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 16, 2019"
+                >
+                  16
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 17, 2019"
+                >
+                  17
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 18, 2019"
+                >
+                  18
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 19, 2019"
+                >
+                  19
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 20, 2019"
+                >
+                  20
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 21, 2019"
+                >
+                  21
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 22, 2019"
+                >
+                  22
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 23, 2019"
+                >
+                  23
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 24, 2019"
+                >
+                  24
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 25, 2019"
+                >
+                  25
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 26, 2019"
+                >
+                  26
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__tile--now react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 27, 2019"
+                >
+                  27
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 28, 2019"
+                >
+                  28
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 29, 2019"
+                >
+                  29
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 30, 2019"
+                >
+                  30
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="May 31, 2019"
+                >
+                  31
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="June 1, 2019"
+                >
+                  1
+                </abbr>
+              </button>
+              <button
+                className="react-calendar__tile react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth"
+                onClick={[Function]}
+                onFocus={null}
+                onMouseOver={null}
+                style={
+                  Object {
+                    "flexBasis": "14.285714285714286%",
+                    "marginLeft": null,
+                    "maxWidth": "14.285714285714286%",
+                    "overflow": "hidden",
+                  }
+                }
+                type="button"
+              >
+                <abbr
+                  aria-label="June 2, 2019"
+                >
+                  2
+                </abbr>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-view-1dbjc4n"
+    style={
+      Object {
+        "WebkitAlignItems": "center",
+        "WebkitBoxAlign": "center",
+        "WebkitBoxPack": "center",
+        "WebkitJustifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,110,173,1.00)",
+        "height": "200px",
+        "justifyContent": "center",
+        "marginTop": "10px",
+        "msFlexAlign": "center",
+        "msFlexPack": "center",
+      }
+    }
+  >
+    <div
+      className="css-text-76zvg2"
+      dir="auto"
+      style={
+        Object {
+          "fontSize": "20px",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      This Footer
+    </div>
+  </div>
+</div>
+`;
