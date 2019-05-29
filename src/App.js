@@ -108,16 +108,15 @@ const Footer = () => (
   </View>
 );
 
-function trigger() {
+function fireTestEvent() {
   window.dataLayer &&
     window.dataLayer.push({
-      event: "pageview"
+      event: "pagerefresh"
     });
-  console.log("==>triggered", window.dataLayer);
 }
 function App() {
   const [count, setCount] = useState(0);
-  trigger();
+  fireTestEvent();
   return (
     <View style={styles.box}>
       {/* <View style={{ flex: 1, backgroundColor: "green" }} /> */}
