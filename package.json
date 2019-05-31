@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.3",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
     "formik": "^1.5.7",
     "jest-dom": "^3.4.0",
     "react": "^16.8.6",
@@ -13,7 +17,13 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "react-test-renderer": "^16.8.6",
+    "typescript": "^3.5.1",
     "yup": "^0.27.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run test"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,11 +49,14 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^5.0.11",
+    "@babel/core": "^7.4.5",
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
-    "@babel/core": "^7.4.5",
-    "babel-loader": "^8.0.6"
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "8.0.5",
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.11.0"
   }
 }
