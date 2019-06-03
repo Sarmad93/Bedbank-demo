@@ -22,16 +22,19 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run test"
+      "pre-commit": "pretty-quick --staged && npm run test:nowatch && npm run lint"
     }
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:update": "react-scripts test --env=jsdom --updateSnapshot",
+    "test:nowatch": "CI=true react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "lint": "node_modules/eslint/bin/eslint.js ./"
   },
   "eslintConfig": {
     "extends": "react-app"

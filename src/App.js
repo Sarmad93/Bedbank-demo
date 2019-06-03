@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, user } from "react";
 import { Formik } from "formik";
 
 //import logo from "./logo.svg";
@@ -7,7 +7,10 @@ import {
   Text,
   View,
   FlatList,
-  TouchableOpacity
+  TouchableOpacity,
+  Alert,
+  Keyboard,
+  TextInput
 } from "react-native";
 import Calendar from "react-calendar";
 
@@ -120,6 +123,7 @@ function App() {
   return (
     <View style={styles.box}>
       {/* <View style={{ flex: 1, backgroundColor: "green" }} /> */}
+
       <Header />
       <Body>
         <Text>This is calender</Text>
@@ -131,6 +135,34 @@ function App() {
           </TouchableOpacity>
         </View>
         <Calendar />
+        <div className="App-link">
+          <Text>Hello textasfdsa</Text>
+        </div>
+        <Formik
+          initialValues={{ firstName: "" }}
+          onSubmit={values => {
+            Alert.alert(JSON.stringify(values, null, 2));
+            Keyboard.dismiss();
+          }}
+        >
+          {({ handleChange, handleSubmit, values }) => (
+            <View style={{ backgroundColor: "white", marginTop: 5 }}>
+              <TextInput
+                onChangeText={handleChange("firstName")}
+                value={values.firstName}
+                label="First name"
+                placeholder="I am ready!"
+              />
+
+              <TouchableOpacity
+                onPress={handleSubmit}
+                style={{ backgroundColor: "red", marginTop: 5 }}
+              >
+                <Text>Submit</Text>
+              </TouchableOpacity>
+            </View>
+          )}
+        </Formik>
       </Body>
       <Footer />
 
